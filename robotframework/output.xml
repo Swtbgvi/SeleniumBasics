@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.1 (Python 3.7.2 on win32)" generated="20190302 18:12:30.150" rpa="false">
+<suite id="s1" name="Demo" source="C:\python37\NewProjects\robotframework\demo.robot">
+<test id="s1-t1" name="login">
+<kw name="Open browser https://www.facebook.com">
+<arguments>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20190302 18:12:30.203" level="FAIL">No keyword with name 'Open browser https://www.facebook.com' found.</msg>
+<status status="FAIL" starttime="20190302 18:12:30.203" endtime="20190302 18:12:30.203"></status>
+</kw>
+<status status="FAIL" starttime="20190302 18:12:30.203" endtime="20190302 18:12:30.203" critical="yes">No keyword with name 'Open browser https://www.facebook.com' found.</status>
+</test>
+<status status="FAIL" starttime="20190302 18:12:30.150" endtime="20190302 18:12:30.203"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Demo">Demo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
