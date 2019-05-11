@@ -1,0 +1,19 @@
+from selenium import webdriver
+import time
+from selenium.webdriver.support.ui import Select
+
+driver =webdriver.Chrome(executable_path="C:/python37/Framework_POM_9/drivers/chromedriver.exe")
+driver.get("https://www.facebook.com/")
+driver.maximize_window()
+
+element = driver.find_element_by_id("day")
+Drop = Select(element)
+Drop.select_by_visible_text("28")
+
+element2 = driver.find_element_by_id("month")
+Drop2 = Select(element2)
+Drop2.select_by_value("2")
+
+element3 = driver.find_element_by_id("year")
+Drop3 = Select(element3)
+Drop3.select_by_value("1998")
